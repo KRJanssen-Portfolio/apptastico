@@ -232,11 +232,16 @@ section.sponsor-stroke {
 
 .sponsor-items {
     padding: 20px 0 15px  0;
-    flex-wrap: wrap;
+    
 }
 
 .sponsor-item {
-    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-item img {
+    width: 80%;
 }
 
 .sponsor-item:last-of-type {
@@ -472,6 +477,10 @@ span.blue-txt {
     .header-top {
         justify-content: space-around;
     }
+
+    .img-iphone {
+        margin-left: 10px;
+    }
     /* END HEADER */
 
     /* PAGE SPACE AROUND */
@@ -503,7 +512,8 @@ span.blue-txt {
     /* END FOOTER */
 }
 
-@media screen and (max-width: 870px) {
+
+@media screen and (max-width: 900px) {
     /* HEADER */
     .header-top {
         padding-bottom: 10px;
@@ -520,7 +530,17 @@ span.blue-txt {
 
     .header-bottom .intro {
         margin-top: 30px;
+        text-align: center;
     }
+
+    /* END HEADER */
+}
+
+@media screen and (max-width: 870px) {
+    /* HEADER */
+    
+
+    
     /* END HEADER */
 
     /* PROJECTS SECTION */
@@ -632,8 +652,8 @@ span.blue-txt {
     /* END HEADER */
 
     /* SPONSOR-STROKE SECTION */
-    .sponsor-item {
-        margin-bottom: 30px;
+    .sponsor-item img {
+        width: 60%;
     }
     /* END SPONSOR-STROKE SECTION*/
 }
