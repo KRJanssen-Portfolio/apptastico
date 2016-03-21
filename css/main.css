@@ -332,14 +332,14 @@ section.community {
     width: 48%;
 }
 
-.blog .intro img, .twitter .intro img {
-    float: left;
-    margin-right: 5px;
+.community .intro {
+    display: flex;
 }
 
-.blog h3, .twitter h3 {
-    overflow: hidden;
+.community .intro h3{
+    margin-left: 5px;
 }
+
 
 .blog p, .twitter-items p {
     margin-bottom: 10px;
